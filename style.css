@@ -148,6 +148,32 @@ footer{
     margin-top: 0.75rem;
 }
 
+.mNavItem {
+    display: block;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-bottom: 1px solid var(--Primary-extra-light);
+    color: var(--Primary);
+}
+
+.mNavItem.selected{
+    font-weight: bold;
+    color: var(--Secondary-dark);
+}
+
+.mobileMenu{
+    position: relative;
+}
+
+.mobileNav{
+    position: absolute;
+    right: -20px;
+    top: 30px;
+    background-color: white;
+    width: 100vw;
+    display: none;
+}
+
 @media all and (max-width: 1400px){
     .heroImage {
         width: 20%;
